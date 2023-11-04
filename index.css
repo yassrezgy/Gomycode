@@ -1,0 +1,230 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #151348;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(55, 134, 171);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #b32c2c;
+    color: white;
+  }
+
+
+
+  p { 
+    color: #000080; 
+   } 
+   a { 
+    color: #bc2f2a; 
+   } 
+
+
+
+
+   h1 {
+    color: rgb(103, 30, 13);
+    font-family: roboto;
+    text-align: center;
+  }
+
+
+  first-line {
+    letter-spacing: 4px;
+    word-spacing: 4px;
+  }
+  
+
+  #box-2 {
+    display: none;
+    width: 100px;
+    height: 100px;
+    background: blue;
+  }
+
+
+
+
+.button1 {background-color: #be8383;} 
+.button2 {background-color: #ae7171;} 
+.button3 {background-color: #ce8a85;} 
+.button4 {background-color: #bd7c7c; color: rgb(255, 255, 255);} 
+
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 20px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+.hm {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/* On mouse-over */
+.MyPortfolio {background: #d3aaaa;}
+
+.MyPortfolio {color: rgb(139, 59, 59);}
+
+
+
+/* Style buttons */
+.btn {
+  background-color: rgb(11, 62, 133); /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 70px 70px; /* Some padding */
+  font-size: 70px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+
+
+
+  
+.test {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(121, 94, 255);
+  display: inline-block;
+}
+
+
+.button5 {background-color: #ca5b91;} 
+
+
+h2 {
+  color: rgb(164, 72, 10);
+  font-family: roboto;
+  text-align: center;
+}
+
+
+first-line {
+  letter-spacing: 4px;
+  word-spacing: 4px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.admin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 3%;
+}
+
+
+h3 {
+  text-align: center;
+}
+first-line {
+  letter-spacing: 4px;
+  word-spacing: 4px;
+}
+
+h4 {
+  text-align: center;
+}
+first-line {
+  letter-spacing: 4px;
+  word-spacing: 4px;
+}
+
+.log {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(133, 33, 33);
+  float: left;
+  width: 20%;
+  background: #f3f0f0;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 40s%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #951c1c;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
